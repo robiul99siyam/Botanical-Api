@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-*d^vnn38318dx0@2fu674k4e3#%zqn*0i@y2^w1sas)7hyndkx
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = ['https://botanical-wep-api.onrender.com/',''https://*.127.0.0.1'']
+CSRF_TRUSTED_ORIGINS = ['https://botanical-wep-api.onrender.com/','https://*.127.0.0.1']
 
 # Application definition
 
