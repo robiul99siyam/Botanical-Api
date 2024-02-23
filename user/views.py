@@ -33,7 +33,7 @@ class UserViewset(APIView):
                 print('uid', uid)
 
                 # ar ei khane amar uid end token diye ekta confrim link make korchi 
-                confirm_link = f"http://127.0.0.1:8000/user/active/{uid}/{token}"
+                confirm_link = f"https://botanical-wep-api.onrender.com/user/active/{uid}/{token}"
 
                 email_subject = "Verify Email in "
                 email_body = render_to_string('index.html',{'confirm_link' : confirm_link})
